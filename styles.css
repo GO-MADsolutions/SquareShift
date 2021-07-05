@@ -1,0 +1,60 @@
+#container { 
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+border: solid 5px black;
+border-radius: 50% 50% 0 0;
+max-width: 1000px;
+min-height: 500px;
+padding: 20px;
+margin: auto;
+}
+
+.seatsContainer {
+  margin: 30px;
+}
+
+.seat {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seatRow {
+  display: flex;
+}
+
+.description {
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+
+.description > div {
+  display: flex;
+  margin: 10px;
+}
+
+.asile, .window, .middle {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  
+}
+
+.asile {
+  background-color: blue;
+}
+
+.window {
+  background-color: green;
+}
+
+.middle {
+  background-color: red;
+}
